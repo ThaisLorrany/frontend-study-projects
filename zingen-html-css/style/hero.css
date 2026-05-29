@@ -1,0 +1,48 @@
+#hero{
+    text-align: center;
+    background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center / contain;
+}
+
+#hero img[src*="music"]{
+    width: 12.875rem;
+}
+
+#hero h1 {
+    margin-top: 1rem;
+}
+
+#hero p{
+    font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
+    color: var(--text-color-secondary);
+    margin-top: .5rem;
+}
+
+#hero .buttons{
+    justify-content: center;
+    gap: .75rem;
+    margin: 1.25rem 0;
+}
+
+@media screen and (min-width: 80rem) {
+    #hero {
+        padding-bottom: 15rem;
+    }
+
+    #hero img[src*="music"] {
+        width: 25.75rem;
+    }
+
+    #hero h1 {
+        margin-top: 1.5rem;
+    }
+
+    #hero p {
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    }
+
+    #hero .buttons {
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+}

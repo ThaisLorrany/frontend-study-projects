@@ -1,0 +1,13 @@
+#about {
+    background-color: var(--surface-color);
+}
+
+#about .even-columns {
+    gap: 2rem;
+}
+
+@media (max-width: 80em) {
+    #about header {
+        margin-top: 1.5rem;
+    }
+}

@@ -1,0 +1,28 @@
+.social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 999px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1rem 1rem;
+}
+
+.social[aria-label="tiktok"] {
+    background-image: url("../assets/icons/tiktok.svg");
+}
+
+.social[aria-label="instagram"] {
+    background-image: url("../assets/icons/instagram.svg");
+}
+
+.social[aria-label="twitter"] {
+    background-image: url("../assets/icons/twitter.svg");
+}
+
+.social[aria-label="discord"] {
+    background-image: url("../assets/icons/discord.svg");
+}
+
