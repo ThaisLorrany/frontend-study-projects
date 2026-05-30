@@ -11,7 +11,7 @@ Este repositório reúne projetos desenvolvidos durante meus estudos de HTML e C
 * Receita Cupcake de Café
 * Zingen
 
-## Tecnologias Utilizadas
+ Tecnologias Utilizadas
 
 * HTML5
 * CSS3
